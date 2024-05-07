@@ -1,0 +1,76 @@
+   
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+}
+section{
+    height: 550px;
+    background-image:url("https://images.unsplash.com/opengraph/1x1.png?blend=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1512719994953-eabf50895df7%3Fblend%3D000000%26blend-alpha%3D10%26blend-mode%3Dnormal%26crop%3Dfaces%252Cedges%26h%3D630%26mark%3Dhttps%253A%252F%252Fimages.unsplash.com%252Fopengraph%252Fsearch-input.png%253Fh%253D84%2526txt%253Dcricket%2526txt-align%253Dmiddle%25252Cleft%2526txt-clip%253Dellipsis%2526txt-color%253D000000%2526txt-pad%253D80%2526txt-size%253D40%2526txt-width%253D660%2526w%253D750%2526auto%253Dformat%2526fit%253Dcrop%2526q%253D60%26mark-align%3Dmiddle%252Ccenter%26mark-w%3D750%26w%3D1200%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixid%3DM3wxMjA3fDB8MXxzZWFyY2h8M3x8Y3JpY2tldHxlbnwwfHx8fDE3MTQ5NjQ4ODh8MA%26ixlib%3Drb-4.0.3&blend-w=1&h=630&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&mark-align=top%2Cleft&mark-pad=50&mark-w=64&w=1200&auto=format&fit=crop&q=60");
+    background-size: cover;
+    width:100%;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 100%;
+    font-size: inline;
+    color: wheat;
+}
+nav ul{
+    float:right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul button{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px; 
+    padding: 7px 8px;
+    font-size: 100%;
+}
+nav ul button a{
+    color: #ed1010;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px; 
+    padding: 7px 8px;
+     font-size: 100%;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+.article{
+    width:60%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(58vh);
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: #f47654;
+
+}
